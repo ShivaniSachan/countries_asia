@@ -28,16 +28,41 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:padding="2dp"
+                android:background="@drawable/countries">
+
+            </ImageView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Heading"
-                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:textStyle="italic"
                 android:fontFamily="sans-serif-black"
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:id="@+id/TextViewHead"/>
+
+            </LinearLayout>
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <ImageView
+                android:background="@drawable/capitalcity"
+                android:layout_width="25dp"
+                android:layout_height="25dp">
+
+            </ImageView>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -46,8 +71,19 @@
                 android:textStyle="bold"
                 android:textColor="#606060"
                 android:id="@+id/TextViewDisc"/>
+             </LinearLayout>
 
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp">
+
+            </ImageView>
             <TextView
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Subregion"
@@ -56,6 +92,16 @@
                 android:textColor="#A0A0A0"
 
                 android:id="@+id/TextViewsubreg"/>
+             </LinearLayout>
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp">
+
+            </ImageView>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,21 +109,42 @@
                 android:textColor="#004C99"
                 android:textStyle="bold"
                 android:textSize="15dp"
-                android:id="@+id/TextViewpopu"/>
+                android:id="@+id/TextViewpopu"/></LinearLayout>
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp">
+
+            </ImageView>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Borders"
                 android:textSize="15dp"
-                android:textColor="#990000"
-                android:id="@+id/TextViewborder"/>
+                android:textStyle="bold"
+                android:textColor="#660000"
+                android:id="@+id/TextViewborder"/></LinearLayout>
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <ImageView
+                android:background="@drawable/language"
+                android:layout_width="25dp"
+                android:layout_height="30dp">
+
+            </ImageView>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Languages"
-                android:textColor="#006666"
+                android:textColor="#404040"
                 android:textSize="13dp"
-                android:id="@+id/TextViewlang"/>
+                android:id="@+id/TextViewlang"/></LinearLayout>
 
 
         </LinearLayout>
