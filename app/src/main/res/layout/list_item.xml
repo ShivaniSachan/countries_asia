@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="5dp"
+        android:outlineSpotShadowColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imageView"
+                android:paddingTop="15dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+            </ImageView>
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heading"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/TextViewHead"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Capital"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#606060"
+                android:id="@+id/TextViewDisc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subregion"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="#A0A0A0"
+
+                android:id="@+id/TextViewsubreg"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Population"
+                android:textColor="#004C99"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:id="@+id/TextViewpopu"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Borders"
+                android:textSize="15dp"
+                android:textColor="#990000"
+                android:id="@+id/TextViewborder"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Languages"
+                android:textColor="#006666"
+                android:textSize="13dp"
+                android:id="@+id/TextViewlang"/>
+
+
+        </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
